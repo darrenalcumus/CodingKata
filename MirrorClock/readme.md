@@ -1,4 +1,4 @@
-#Solution
+# Solution
 
 I went with a solution to cover off the test cases because of a couple of reasons
 1. It's a 12 hour clock, there are only a fixed number of cases anyways
