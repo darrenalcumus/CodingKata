@@ -11,7 +11,7 @@ public class Base12MirrorClock implements IMirrorClock
         String[] timeUnits = timeInMirror.split(":");
         int iMirrorHours = Integer.parseInt(timeUnits[0]);
         int iMirrorMinutes = Integer.parseInt(timeUnits[1]);
-        
+
         int iActualHours;
         if (iMirrorHours == MAX_HOURS)
             iActualHours = MAX_HOURS + 1;
